@@ -255,6 +255,9 @@
     {
         return kCCBResTypeGeneratedSpriteSheetDef;
     }
+    else if ([ext isEqualToString:@"tmx"]) {
+              return kCCBResTypeTMX;
+    }
     return kCCBResTypeNone;
 }
 
@@ -997,6 +1000,15 @@
             
             importedFile = YES;
         }
+        else if ([ext isEqualToString:@"tmx"])
+        {
+            // Import fonts or other files that should just be copied
+            NSString* dstPath = [dstDir stringByAppendingPathComponent:[file lastPathComponent]];
+            [fm copyItemAtPath:file toPath:dstPath error:NULL];
+            
+            importedFile = YES;
+        }
+
     }
     
     return importedFile;
