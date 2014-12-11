@@ -9,6 +9,8 @@
 
 #import "CCTiledMap.h"
 
-@interface CCBPTiledMap : CCTiledMap
+@interface CCBPTiledMap : CCNode
+
+@property (nonatomic,strong) CCTiledMap* tmxFile;
 
 @end

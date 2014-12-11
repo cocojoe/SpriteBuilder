@@ -85,7 +85,8 @@
                 || res.type == kCCBResTypeBMFont
                 || res.type == kCCBResTypeCCBFile
                 || res.type == kCCBResTypeTTF
-                || res.type == kCCBResTypeAudio)
+                || res.type == kCCBResTypeAudio
+                || res.type == kCCBResTypeTMX)
             {
                 
                 NSString* itemName = [res.filePath lastPathComponent];

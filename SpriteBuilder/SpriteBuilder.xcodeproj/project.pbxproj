@@ -24,6 +24,8 @@
 		5B5B47B71A38A70B00018AA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B2CEF331A38A2D100F9C960 /* InfoPlist.strings */; };
 		5BA3DC35192110B90055DD96 /* GuideGridSizeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3DC30192108AB0055DD96 /* GuideGridSizeWindow.m */; };
 		5BA3DC36192110BA0055DD96 /* GuideGridSizeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3DC31192108AB0055DD96 /* GuideGridSizeWindow.xib */; };
+		5BA7CA6B1A39E5DA0087AE14 /* InspectorTMXFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7CA691A39E5DA0087AE14 /* InspectorTMXFile.m */; };
+		5BA7CA6C1A39E5DA0087AE14 /* InspectorTMXFile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA7CA6A1A39E5DA0087AE14 /* InspectorTMXFile.xib */; };
 		5BB9A3551A038C59008184AE /* ResourceDuplicateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9A3541A038C59008184AE /* ResourceDuplicateCommand.m */; };
 		5BBEC3601A011D8D00FBA08B /* InspectorTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBEC35F1A011D8D00FBA08B /* InspectorTextView.m */; };
 		77055FB513D0E5CA009DD63A /* logo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77055FB313D0E5CA009DD63A /* logo-icon.png */; };
@@ -1381,6 +1383,9 @@
 		5BA3DC2F192108AB0055DD96 /* GuideGridSizeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideGridSizeWindow.h; sourceTree = "<group>"; };
 		5BA3DC30192108AB0055DD96 /* GuideGridSizeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideGridSizeWindow.m; sourceTree = "<group>"; };
 		5BA3DC31192108AB0055DD96 /* GuideGridSizeWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideGridSizeWindow.xib; sourceTree = "<group>"; };
+		5BA7CA681A39E5DA0087AE14 /* InspectorTMXFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorTMXFile.h; sourceTree = "<group>"; };
+		5BA7CA691A39E5DA0087AE14 /* InspectorTMXFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorTMXFile.m; sourceTree = "<group>"; };
+		5BA7CA6A1A39E5DA0087AE14 /* InspectorTMXFile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorTMXFile.xib; sourceTree = "<group>"; };
 		5BB9A3531A038C59008184AE /* ResourceDuplicateCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceDuplicateCommand.h; sourceTree = "<group>"; };
 		5BB9A3541A038C59008184AE /* ResourceDuplicateCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceDuplicateCommand.m; sourceTree = "<group>"; };
 		5BBEC35E1A011D8D00FBA08B /* InspectorTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorTextView.h; sourceTree = "<group>"; };
@@ -5616,6 +5621,9 @@
 		E525F2CD3FA1D9C04C87345A /* Properties */ = {
 			isa = PBXGroup;
 			children = (
+				5BA7CA681A39E5DA0087AE14 /* InspectorTMXFile.h */,
+				5BA7CA691A39E5DA0087AE14 /* InspectorTMXFile.m */,
+				5BA7CA6A1A39E5DA0087AE14 /* InspectorTMXFile.xib */,
 				E525F303EF1DD9EC33F2E948 /* InspectorAnimation.h */,
 				E525FC054F765C06313A3385 /* InspectorAnimation.m */,
 				E525F620E2E7CFB0B4AF1693 /* InspectorAnimation.xib */,
@@ -7011,6 +7019,7 @@
 				E525FC7C4CC9DF569C8C7461 /* InspectorPopoverPosition.xib in Resources */,
 				E525FC37EF1C0B3CA4B08E59 /* InspectorSize.xib in Resources */,
 				E525F28AC6A7BCDDE7048BA8 /* InspectorPoint.xib in Resources */,
+				5BA7CA6C1A39E5DA0087AE14 /* InspectorTMXFile.xib in Resources */,
 				E525F46241CE0EC990F40A75 /* InspectorPointLock.xib in Resources */,
 				E525FB30A10E77E6C59149A6 /* InspectorScaleLock.xib in Resources */,
 				E525F03B6CDF916ED1E70285 /* InspectorPopoverScaleLock.xib in Resources */,
@@ -7647,6 +7656,7 @@
 				E525F9D641B364C1235E450B /* PublishBaseOperation.m in Sources */,
 				E525FBA4E26414A8E6EBA77C /* PublishCCBOperation.m in Sources */,
 				E525F2C0B3311DCAEC86C6B0 /* PublishImageOperation.m in Sources */,
+				5BA7CA6B1A39E5DA0087AE14 /* InspectorTMXFile.m in Sources */,
 				E525F3B510C25EE6D73F2C68 /* DateCache.m in Sources */,
 				E525F4E581031BFDE7E6DC9A /* NSString+Publishing.m in Sources */,
 				E525FA5D4791EB730859BF2C /* ProjectSettings+Convenience.m in Sources */,

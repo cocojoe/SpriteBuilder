@@ -356,7 +356,9 @@
                     || res.type == kCCBResTypeTTF
                     || res.type == kCCBResTypeCCBFile
                     || res.type == kCCBResTypeAudio
-                    || res.type == kCCBResTypeGeneratedSpriteSheetDef)
+                    || res.type == kCCBResTypeGeneratedSpriteSheetDef
+                    || res.type == kCCBResTypeTMX
+                    )
                 {
                     needsUpdate = YES;
                 }
@@ -420,6 +422,7 @@
         [dir.ttfFonts removeAllObjects];
         [dir.ccbFiles removeAllObjects];
         [dir.audioFiles removeAllObjects];
+        [dir.tmxFiles removeAllObjects];
         
         for (NSString* file in resources)
         {
@@ -457,6 +460,12 @@
                 [dir.audioFiles addObject:res];
                 
             }
+            if (res.type == kCCBResTypeTMX
+                || res.type == kCCBResTypeDirectory)
+            {
+                [dir.tmxFiles addObject:res];
+                
+            }
             if (res.type == kCCBResTypeImage
                 || res.type == kCCBResTypeSpriteSheet
                 || res.type == kCCBResTypeAnimation
@@ -466,7 +475,8 @@
                 || res.type == kCCBResTypeDirectory
                 || res.type == kCCBResTypeJS
                 || res.type == kCCBResTypeJSON
-                || res.type == kCCBResTypeAudio)
+                || res.type == kCCBResTypeAudio
+                || res.type == kCCBResTypeTMX)
             {
                 [dir.any addObject:res];
             }
@@ -479,6 +489,7 @@
         [dir.ttfFonts sortUsingSelector:@selector(compare:)];
         [dir.ccbFiles sortUsingSelector:@selector(compare:)];
         [dir.audioFiles sortUsingSelector:@selector(compare:)];
+        [dir.tmxFiles sortUsingSelector:@selector(compare:)];
     }
     
     if (resourcesChanged) [self notifyResourceObserversResourceListUpdated];

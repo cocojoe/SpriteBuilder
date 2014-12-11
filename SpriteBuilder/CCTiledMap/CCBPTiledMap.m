@@ -7,25 +7,34 @@
 //
 
 #import "CCBPTiledMap.h"
-#import "CCDirector.h"
-#import "CCDrawNode.h"
-#import "CCSprite.h"
-#import "SceneGraph.h"
+#import "CCBPCCBFile.h"
+#import "ResourceManager.h"
+#import "CCBReaderInternal.h"
+#import "CCBGlobals.h"
+#import "CCBDocument.h"
+#import "AppDelegate.h"
+#import "CCNode+NodeInfo.h"
 
-@interface CCBPTiledMap ()
-@end
 
 @implementation CCBPTiledMap
 
 - (id) init
 {
-    if ((self = [super initWithFile:@"tilemap.tmx"]))
-    {
-   
-    }
+    self = [super init];
+    if (!self) return NULL;
 
     return self;
 }
 
+- (void) setTmxFile:(NSString *)tmxFile
+{
+    [self removeAllChildrenWithCleanup:YES];
+    if (tmxFile)
+    {
+        _tmxFile = [CCTiledMap tiledMapWithFile:tmxFile];
+        [self addChild:_tmxFile];
+    }
+    
+}
 
 @end
