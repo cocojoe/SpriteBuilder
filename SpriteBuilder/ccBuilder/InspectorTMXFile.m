@@ -29,7 +29,7 @@
 #import "AppDelegate.h"
 #import "CCBDocument.h"
 #import "CCBReaderInternal.h"
-#import "NodeGraphPropertySetter.h"
+#import "TiledPropertySetter.h"
 #import "PositionPropertySetter.h"
 #import "CCNode+NodeInfo.h"
 #import "ResourceTypes.h"
@@ -70,7 +70,7 @@
     {
         [selection setExtraProp:tmxFile forKey:propertyName];
         
-        //[NodeGraphPropertySetter setNodeGraphForNode:selection andProperty:propertyName withFile:tmxFile parentSize:[PositionPropertySetter getParentSize:selection]];
+        [TiledPropertySetter setTiledMapForNode:selection andProperty:propertyName withFile:tmxFile parentSize:[PositionPropertySetter getParentSize:selection]];
     }
     
     [self updateAffectedProperties];

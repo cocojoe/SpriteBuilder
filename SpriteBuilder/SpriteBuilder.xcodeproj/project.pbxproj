@@ -24,6 +24,7 @@
 		5B5B47B71A38A70B00018AA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B2CEF331A38A2D100F9C960 /* InfoPlist.strings */; };
 		5BA3DC35192110B90055DD96 /* GuideGridSizeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3DC30192108AB0055DD96 /* GuideGridSizeWindow.m */; };
 		5BA3DC36192110BA0055DD96 /* GuideGridSizeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3DC31192108AB0055DD96 /* GuideGridSizeWindow.xib */; };
+		5BA5929D1A3B32F3009B35D5 /* TiledPropertySetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5929C1A3B32F3009B35D5 /* TiledPropertySetter.m */; };
 		5BA7CA6B1A39E5DA0087AE14 /* InspectorTMXFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7CA691A39E5DA0087AE14 /* InspectorTMXFile.m */; };
 		5BA7CA6C1A39E5DA0087AE14 /* InspectorTMXFile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA7CA6A1A39E5DA0087AE14 /* InspectorTMXFile.xib */; };
 		5BB9A3551A038C59008184AE /* ResourceDuplicateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9A3541A038C59008184AE /* ResourceDuplicateCommand.m */; };
@@ -1383,6 +1384,8 @@
 		5BA3DC2F192108AB0055DD96 /* GuideGridSizeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideGridSizeWindow.h; sourceTree = "<group>"; };
 		5BA3DC30192108AB0055DD96 /* GuideGridSizeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideGridSizeWindow.m; sourceTree = "<group>"; };
 		5BA3DC31192108AB0055DD96 /* GuideGridSizeWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideGridSizeWindow.xib; sourceTree = "<group>"; };
+		5BA5929B1A3B32F3009B35D5 /* TiledPropertySetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPropertySetter.h; sourceTree = "<group>"; };
+		5BA5929C1A3B32F3009B35D5 /* TiledPropertySetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPropertySetter.m; sourceTree = "<group>"; };
 		5BA7CA681A39E5DA0087AE14 /* InspectorTMXFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorTMXFile.h; sourceTree = "<group>"; };
 		5BA7CA691A39E5DA0087AE14 /* InspectorTMXFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorTMXFile.m; sourceTree = "<group>"; };
 		5BA7CA6A1A39E5DA0087AE14 /* InspectorTMXFile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorTMXFile.xib; sourceTree = "<group>"; };
@@ -3213,6 +3216,8 @@
 				E525F2B4F3FE0A9DB6AEF0C0 /* NSString+Misc.h */,
 				98C39A979A6BFC23DB610BDE /* NSKeyboardForwardingView.m */,
 				98C3964FFF8C4E1070E390F8 /* NSKeyboardForwardingView.h */,
+				5BA5929B1A3B32F3009B35D5 /* TiledPropertySetter.h */,
+				5BA5929C1A3B32F3009B35D5 /* TiledPropertySetter.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -7691,6 +7696,7 @@
 				E525FCD21C3519D61A86ACEF /* PackageRenamer.m in Sources */,
 				E525F737F211D45673D7BC62 /* PackageImporter.m in Sources */,
 				E525F41CB400C44CC62ECAD9 /* ProjectSettings+Packages.m in Sources */,
+				5BA5929D1A3B32F3009B35D5 /* TiledPropertySetter.m in Sources */,
 				E525FACCFCFDC3FE00EB9A6B /* PackageUtil.m in Sources */,
 				E525F47301A5C8C234262F36 /* PackageRemover.m in Sources */,
 				E525FC5DE242A8EB373D882A /* PackageExporter.m in Sources */,
