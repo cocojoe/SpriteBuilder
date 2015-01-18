@@ -21,11 +21,21 @@
 		58FA2034162D73F3006B8856 /* TB_bottomPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FA2031162D73F3006B8856 /* TB_bottomPanel.png */; };
 		58FA2035162D73F3006B8856 /* TB_leftPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FA2032162D73F3006B8856 /* TB_leftPanel.png */; };
 		58FA2036162D73F3006B8856 /* TB_rightPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FA2033162D73F3006B8856 /* TB_rightPanel.png */; };
+		5B16CD371A6BBEFB00FDD0F8 /* CCTiledMap.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = 5BF719381A6AB24300267F24 /* CCTiledMap.ccbPlugNode */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5B16CD3B1A6BC06200FDD0F8 /* InspectorTMXFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B16CD391A6BC06200FDD0F8 /* InspectorTMXFile.m */; };
+		5B16CD3C1A6BC06200FDD0F8 /* InspectorTMXFile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B16CD3A1A6BC06200FDD0F8 /* InspectorTMXFile.xib */; };
+		5B16CD401A6C410E00FDD0F8 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B16CD3F1A6C410E00FDD0F8 /* XMLDictionary.m */; };
+		5B16CD431A6C4A7600FDD0F8 /* TiledPropertySetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B16CD421A6C4A7600FDD0F8 /* TiledPropertySetter.m */; };
 		5B321CC91A5B458800A7C779 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B321CC81A5B458800A7C779 /* QuickLook.framework */; };
 		5BA3DC35192110B90055DD96 /* GuideGridSizeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3DC30192108AB0055DD96 /* GuideGridSizeWindow.m */; };
 		5BA3DC36192110BA0055DD96 /* GuideGridSizeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3DC31192108AB0055DD96 /* GuideGridSizeWindow.xib */; };
 		5BB9A3551A038C59008184AE /* ResourceDuplicateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9A3541A038C59008184AE /* ResourceDuplicateCommand.m */; };
 		5BBEC3601A011D8D00FBA08B /* InspectorTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBEC35F1A011D8D00FBA08B /* InspectorTextView.m */; };
+		5BF7192E1A6AB24300267F24 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
+		5BF719701A6AC7AF00267F24 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BF719661A6AC7AF00267F24 /* CCBPProperties.plist */; };
+		5BF719711A6AC7AF00267F24 /* CCBPTiledMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF719681A6AC7AF00267F24 /* CCBPTiledMap.m */; };
+		5BF719741A6AC7AF00267F24 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF7196E1A6AC7AF00267F24 /* Icon.png */; };
+		5BF719751A6AC7AF00267F24 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BF7196F1A6AC7AF00267F24 /* Icon@2x.png */; };
 		77055FB513D0E5CA009DD63A /* logo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77055FB313D0E5CA009DD63A /* logo-icon.png */; };
 		77055FB613D0E5CA009DD63A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 77055FB413D0E5CA009DD63A /* logo.png */; };
 		77156DB1137F0351005EF746 /* CCBSpriteSheetParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 77156DB0137F0351005EF746 /* CCBSpriteSheetParser.m */; };
@@ -242,7 +252,7 @@
 		83F3CA8A1A42384C003D8659 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F3CA371A42306C003D8659 /* Icon@2x.png */; };
 		83F3CA8F1A4239A0003D8659 /* btn-dropdown-arrows@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F3CA8D1A4239A0003D8659 /* btn-dropdown-arrows@2x.png */; };
 		83F3CA901A4239A0003D8659 /* btn-dropdown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F3CA8E1A4239A0003D8659 /* btn-dropdown@2x.png */; };
-		83F3CA911A423A0D003D8659 /* CCLightNode.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = 83F3CA701A423337003D8659 /* CCLightNode.ccbPlugNode */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83F3CA911A423A0D003D8659 /* CCLightNode.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = 83F3CA701A423337003D8659 /* CCLightNode.ccbPlugNode */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		83F3CA951A423AEA003D8659 /* LightingHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F3CA931A423AEA003D8659 /* LightingHandler.m */; };
 		83F3CA981A423B48003D8659 /* CCBPEffectLighting.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F3CA971A423B48003D8659 /* CCBPEffectLighting.m */; };
 		83F3CA9A1A423B63003D8659 /* effect-lighting.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F3CA991A423B63003D8659 /* effect-lighting.png */; };
@@ -1074,13 +1084,6 @@
 			remoteGlobalIDString = D2FEB74F194F6C9E00FC0574;
 			remoteInfo = cocos2dAndroid;
 		};
-		836E2D5919EE5BCC00CD5B66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 836E2D3E19EE5AF300CD5B66 /* cocos2d.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5BF3267A195F8D8800D9A51A;
-			remoteInfo = cocos2dJava;
-		};
 		836E2D5B19EE5BCC00CD5B66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 836E2D3E19EE5AF300CD5B66 /* cocos2d.xcodeproj */;
@@ -1272,6 +1275,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				5B16CD371A6BBEFB00FDD0F8 /* CCTiledMap.ccbPlugNode in Copy PlugIns */,
 				83F3CA911A423A0D003D8659 /* CCLightNode.ccbPlugNode in Copy PlugIns */,
 				92B5885D19B679E500BAE4C1 /* CCEffectNode.ccbPlugNode in Copy PlugIns */,
 				92B792D518C9333E007DF895 /* CCPhysicsSpringJoint.ccbPlugNode in Copy PlugIns */,
@@ -1320,6 +1324,13 @@
 		58FA2031162D73F3006B8856 /* TB_bottomPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TB_bottomPanel.png; sourceTree = "<group>"; };
 		58FA2032162D73F3006B8856 /* TB_leftPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TB_leftPanel.png; sourceTree = "<group>"; };
 		58FA2033162D73F3006B8856 /* TB_rightPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TB_rightPanel.png; sourceTree = "<group>"; };
+		5B16CD381A6BC06200FDD0F8 /* InspectorTMXFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorTMXFile.h; sourceTree = "<group>"; };
+		5B16CD391A6BC06200FDD0F8 /* InspectorTMXFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorTMXFile.m; sourceTree = "<group>"; };
+		5B16CD3A1A6BC06200FDD0F8 /* InspectorTMXFile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorTMXFile.xib; sourceTree = "<group>"; };
+		5B16CD3E1A6C410E00FDD0F8 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		5B16CD3F1A6C410E00FDD0F8 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		5B16CD411A6C4A7600FDD0F8 /* TiledPropertySetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPropertySetter.h; sourceTree = "<group>"; };
+		5B16CD421A6C4A7600FDD0F8 /* TiledPropertySetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPropertySetter.m; sourceTree = "<group>"; };
 		5B321CC81A5B458800A7C779 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuickLook.framework; sourceTree = DEVELOPER_DIR; };
 		5BA3DC2F192108AB0055DD96 /* GuideGridSizeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideGridSizeWindow.h; sourceTree = "<group>"; };
 		5BA3DC30192108AB0055DD96 /* GuideGridSizeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideGridSizeWindow.m; sourceTree = "<group>"; };
@@ -1328,6 +1339,14 @@
 		5BB9A3541A038C59008184AE /* ResourceDuplicateCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceDuplicateCommand.m; sourceTree = "<group>"; };
 		5BBEC35E1A011D8D00FBA08B /* InspectorTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorTextView.h; sourceTree = "<group>"; };
 		5BBEC35F1A011D8D00FBA08B /* InspectorTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorTextView.m; sourceTree = "<group>"; };
+		5BF719381A6AB24300267F24 /* CCTiledMap.ccbPlugNode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCTiledMap.ccbPlugNode; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF719661A6AC7AF00267F24 /* CCBPProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CCBPProperties.plist; path = CCTiledMap/CCBPProperties.plist; sourceTree = SOURCE_ROOT; };
+		5BF719671A6AC7AF00267F24 /* CCBPTiledMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCBPTiledMap.h; path = CCTiledMap/CCBPTiledMap.h; sourceTree = SOURCE_ROOT; };
+		5BF719681A6AC7AF00267F24 /* CCBPTiledMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCBPTiledMap.m; path = CCTiledMap/CCBPTiledMap.m; sourceTree = SOURCE_ROOT; };
+		5BF719691A6AC7AF00267F24 /* CCTiledMap-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CCTiledMap-Info.plist"; path = "CCTiledMap/CCTiledMap-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5BF7196A1A6AC7AF00267F24 /* CCTiledMap-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CCTiledMap-Prefix.pch"; path = "CCTiledMap/CCTiledMap-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		5BF7196E1A6AC7AF00267F24 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = CCTiledMap/Icon.png; sourceTree = SOURCE_ROOT; };
+		5BF7196F1A6AC7AF00267F24 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "CCTiledMap/Icon@2x.png"; sourceTree = SOURCE_ROOT; };
 		77055FB313D0E5CA009DD63A /* logo-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-icon.png"; sourceTree = "<group>"; };
 		77055FB413D0E5CA009DD63A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		77156DAF137F0351005EF746 /* CCBSpriteSheetParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBSpriteSheetParser.h; sourceTree = "<group>"; };
@@ -2805,6 +2824,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5BF7192D1A6AB24300267F24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF7192E1A6AB24300267F24 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7789ABBB133AA82000CEFCC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -3032,6 +3059,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B16CD3D1A6C410E00FDD0F8 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				5B16CD3E1A6C410E00FDD0F8 /* XMLDictionary.h */,
+				5B16CD3F1A6C410E00FDD0F8 /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		5BF7193A1A6AB30600267F24 /* CCTiledMap */ = {
+			isa = PBXGroup;
+			children = (
+				5BF719671A6AC7AF00267F24 /* CCBPTiledMap.h */,
+				5BF719681A6AC7AF00267F24 /* CCBPTiledMap.m */,
+				5BF719591A6ABE9700267F24 /* Supporting Files */,
+			);
+			name = CCTiledMap;
+			path = CCTileMap;
+			sourceTree = "<group>";
+		};
+		5BF719591A6ABE9700267F24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BF719661A6AC7AF00267F24 /* CCBPProperties.plist */,
+				5BF719691A6AC7AF00267F24 /* CCTiledMap-Info.plist */,
+				5BF7196A1A6AC7AF00267F24 /* CCTiledMap-Prefix.pch */,
+				5BF7196E1A6AC7AF00267F24 /* Icon.png */,
+				5BF7196F1A6AC7AF00267F24 /* Icon@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		776041E01498F4A00078095D /* Document Readers & Writers */ = {
 			isa = PBXGroup;
 			children = (
@@ -3116,6 +3175,8 @@
 				E525F2B4F3FE0A9DB6AEF0C0 /* NSString+Misc.h */,
 				98C39A979A6BFC23DB610BDE /* NSKeyboardForwardingView.m */,
 				98C3964FFF8C4E1070E390F8 /* NSKeyboardForwardingView.h */,
+				5B16CD411A6C4A7600FDD0F8 /* TiledPropertySetter.h */,
+				5B16CD421A6C4A7600FDD0F8 /* TiledPropertySetter.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -3660,6 +3721,7 @@
 				833A5C4A192B48CB001837B3 /* SpriteBuilder Tests.xctest */,
 				929D1BA31954D16C00B27340 /* CCEffectNode.ccbPlugNode */,
 				83F3CA701A423337003D8659 /* CCLightNode.ccbPlugNode */,
+				5BF719381A6AB24300267F24 /* CCTiledMap.ccbPlugNode */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3764,6 +3826,7 @@
 		7789ABEF133AB17100CEFCC7 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				5B16CD3D1A6C410E00FDD0F8 /* XMLDictionary */,
 				8341326918DADF8C0088FFAB /* optipng */,
 				80AD79911863871200B653B7 /* PVRTexTool */,
 				B7D0918717C2C1310007FE7F /* Cocos2d */,
@@ -4065,7 +4128,6 @@
 			children = (
 				836E2D5619EE5BCC00CD5B66 /* libcocos2d.a */,
 				836E2D5819EE5BCC00CD5B66 /* libcocos2dAndroid.a */,
-				836E2D5A19EE5BCC00CD5B66 /* cocos2dJava.jar */,
 				836E2D5C19EE5BCC00CD5B66 /* libcocos2d-mac.a */,
 			);
 			name = Products;
@@ -4992,6 +5054,7 @@
 		E35392461518AD0A00471721 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				5BF7193A1A6AB30600267F24 /* CCTiledMap */,
 				E3D59123150F5367004180CA /* CCBFile */,
 				929D1B8C1954D15400B27340 /* CCEffectNode */,
 				E35DBBCE14F2AA360070A6E4 /* CCLabelBMFont */,
@@ -5535,6 +5598,9 @@
 		E525F2CD3FA1D9C04C87345A /* Properties */ = {
 			isa = PBXGroup;
 			children = (
+				5B16CD381A6BC06200FDD0F8 /* InspectorTMXFile.h */,
+				5B16CD391A6BC06200FDD0F8 /* InspectorTMXFile.m */,
+				5B16CD3A1A6BC06200FDD0F8 /* InspectorTMXFile.xib */,
 				83F3CA5E1A4232C4003D8659 /* InspectorTokenArray.h */,
 				83F3CA5F1A4232C4003D8659 /* InspectorTokenArray.m */,
 				83F3CA601A4232C4003D8659 /* InspectorTokenArray.xib */,
@@ -5833,6 +5899,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5BF7192A1A6AB24300267F24 /* CCTiledMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF719341A6AB24300267F24 /* Build configuration list for PBXNativeTarget "CCTiledMap" */;
+			buildPhases = (
+				5BF7192B1A6AB24300267F24 /* Sources */,
+				5BF7192D1A6AB24300267F24 /* Frameworks */,
+				5BF7192F1A6AB24300267F24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCTiledMap;
+			productName = CCBFile;
+			productReference = 5BF719381A6AB24300267F24 /* CCTiledMap.ccbPlugNode */;
+			productType = "com.apple.product-type.bundle";
+		};
 		7789ABBD133AA82000CEFCC7 /* SpriteBuilder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7789ABDC133AA82000CEFCC7 /* Build configuration list for PBXNativeTarget "SpriteBuilder" */;
@@ -6351,6 +6434,7 @@
 				926D13D718B57B9500582959 /* CCPhysicsPinJoint */,
 				92B7900118C808B7007DF895 /* CCPhysicsSpringJoint */,
 				FA98CFC0154E7D1C006E58C5 /* ccbpublish */,
+				5BF7192A1A6AB24300267F24 /* CCTiledMap */,
 			);
 		};
 /* End PBXProject section */
@@ -6370,13 +6454,6 @@
 			remoteRef = 836E2D5719EE5BCC00CD5B66 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		836E2D5A19EE5BCC00CD5B66 /* cocos2dJava.jar */ = {
-			isa = PBXReferenceProxy;
-			fileType = compiled.java.jar;
-			path = cocos2dJava.jar;
-			remoteRef = 836E2D5919EE5BCC00CD5B66 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		836E2D5C19EE5BCC00CD5B66 /* libcocos2d-mac.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -6387,6 +6464,16 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5BF7192F1A6AB24300267F24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF719751A6AC7AF00267F24 /* Icon@2x.png in Resources */,
+				5BF719741A6AC7AF00267F24 /* Icon.png in Resources */,
+				5BF719701A6AC7AF00267F24 /* CCBPProperties.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7789ABBC133AA82000CEFCC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -6420,6 +6507,7 @@
 				B7E6BB6819F86A9800619A58 /* ui-nopreview@2x.png in Resources */,
 				830485A519AF2A6E00A624BB /* PreviewAudioView.xib in Resources */,
 				B71706CD184ECD660081720A /* select-crosshair@2x.png in Resources */,
+				5B16CD3C1A6BC06200FDD0F8 /* InspectorTMXFile.xib in Resources */,
 				7789ABCD133AA82000CEFCC7 /* InfoPlist.strings in Resources */,
 				83F3CA321A422F50003D8659 /* scale-4@2x.png in Resources */,
 				7789ABD3133AA82000CEFCC7 /* Credits.rtf in Resources */,
@@ -7154,6 +7242,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5BF7192B1A6AB24300267F24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF719711A6AC7AF00267F24 /* CCBPTiledMap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7789ABBA133AA82000CEFCC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -7165,6 +7261,7 @@
 				9294EC8F18C65EC10059014C /* CCBPhysicsPivotJoint.m in Sources */,
 				9294EC9018C65EC10059014C /* CCBPhysicsJoint.m in Sources */,
 				9297AC2118A2C0D2003C3705 /* PolyDecomposition.mm in Sources */,
+				5B16CD3B1A6BC06200FDD0F8 /* InspectorTMXFile.m in Sources */,
 				80B149C9183D73930085935B /* SoundFileImageController.m in Sources */,
 				8045F13D183AF3FF0082BD94 /* SequencerButtonCell.m in Sources */,
 				835C50DA1A5D44BE000DB185 /* SecurityScopedBookmarksStore.m in Sources */,
@@ -7410,6 +7507,7 @@
 				E525F9C561CF0D13BB57D6F5 /* NSError+SBErrors.m in Sources */,
 				E525FF7AD7E8BFE584A8BBDE /* NSString+Packages.m in Sources */,
 				E525FCD21C3519D61A86ACEF /* PackageRenamer.m in Sources */,
+				5B16CD401A6C410E00FDD0F8 /* XMLDictionary.m in Sources */,
 				E525F737F211D45673D7BC62 /* PackageImporter.m in Sources */,
 				E525F41CB400C44CC62ECAD9 /* ProjectSettings+Packages.m in Sources */,
 				E525FACCFCFDC3FE00EB9A6B /* PackageUtil.m in Sources */,
@@ -7448,6 +7546,7 @@
 				E525FD5F78427772C74BE9FC /* InspectorScaleLock.m in Sources */,
 				E525FDD99292970FB096274E /* InspectorDegrees.m in Sources */,
 				E525FBF660068A2D361AA5F4 /* InspectorInteger.m in Sources */,
+				5B16CD431A6C4A7600FDD0F8 /* TiledPropertySetter.m in Sources */,
 				E525FC638B5C1759A72F1FC6 /* InspectorFloat.m in Sources */,
 				E525F7A38F87B899A18CA645 /* InspectorFloatXY.m in Sources */,
 				E525F85C630DA97FBE9E2A3E /* InspectorFloatScale.m in Sources */,
@@ -8064,6 +8163,98 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5BF719351A6AB24300267F24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCTiledMap/CCTiledMap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = (
+					"libs/cocos2d-iphone/cocos2d/**",
+					"libs/cocos2d-iphone/cocos2d-ui/**",
+					"libs/cocos2d-iphone/external/ObjectAL/**",
+				);
+				INFOPLIST_FILE = "CCTiledMap/CCTiledMap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = CCTiledMap;
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Debug;
+		};
+		5BF719361A6AB24300267F24 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCTiledMap/CCTiledMap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = (
+					"libs/cocos2d-iphone/cocos2d/**",
+					"libs/cocos2d-iphone/cocos2d-ui/**",
+					"libs/cocos2d-iphone/external/ObjectAL/**",
+				);
+				INFOPLIST_FILE = "CCTiledMap/CCTiledMap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = CCTiledMap;
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Testing;
+		};
+		5BF719371A6AB24300267F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCTiledMap/CCTiledMap-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = (
+					"libs/cocos2d-iphone/cocos2d/**",
+					"libs/cocos2d-iphone/cocos2d-ui/**",
+					"libs/cocos2d-iphone/external/ObjectAL/**",
+				);
+				INFOPLIST_FILE = "CCTiledMap/CCTiledMap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = CCTiledMap;
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Release;
+		};
 		7789ABDA133AA82000CEFCC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -10940,6 +11131,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5BF719341A6AB24300267F24 /* Build configuration list for PBXNativeTarget "CCTiledMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF719351A6AB24300267F24 /* Debug */,
+				5BF719361A6AB24300267F24 /* Testing */,
+				5BF719371A6AB24300267F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7789ABB8133AA82000CEFCC7 /* Build configuration list for PBXProject "SpriteBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

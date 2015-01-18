@@ -12,4 +12,5 @@ typedef enum
     kCCBResTypeJSON,
     kCCBResTypeAudio,
     kCCBResTypeGeneratedSpriteSheetDef,
+    kCCBResTypeTMX,
 } CCBResourceType;
