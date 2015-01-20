@@ -32,10 +32,6 @@
         NSString* imageSourceAbs = [[ResourceManager sharedManager] toAbsolutePath:imageSource];
         NSString* resourcePath   = [imageSourceAbs stringByReplacingOccurrencesOfString:imageSource withString:@""];
         
-        // Cache Texture
-        [[CCTextureCache sharedTextureCache] addImage:imageSourceAbs];
-        //[[CCTextureCache sharedTextureCache] dumpCachedTextureInfo];
-        
         // Load TMX
         [(CCBPTiledMap*)node addTileMapWithXMLData:[[NSString alloc] initWithData:xmlData encoding:NSUTF8StringEncoding]
                                       resourcePath:resourcePath];

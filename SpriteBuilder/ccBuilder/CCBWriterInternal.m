@@ -400,6 +400,12 @@
         if (!spriteFile) spriteFile = @"";
         serializedValue = spriteFile;
     }
+    else if ([type isEqualToString:@"TMXFile"])
+    {
+        NSString* tmxFile = [extraProps objectForKey:name];
+        if (!tmxFile) tmxFile = @"";
+        serializedValue = tmxFile;
+    }
     else if([type isEqualToString:@"NodeReference"])
     {
          CCNode* nodeRef = [node valueForKey:name];

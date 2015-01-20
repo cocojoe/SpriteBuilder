@@ -40,6 +40,7 @@
 #import "EffectsManager.h"
 #import "NSArray+Query.h"
 #import "CCBPEffectNode.h"
+#import "TiledPropertySetter.h"
 
 // Old positioning constants
 enum
@@ -401,6 +402,13 @@ __strong NSDictionary* renamedProperties = nil;
         if (!ccbFile) ccbFile = @"";
         [NodeGraphPropertySetter setNodeGraphForNode:node andProperty:name withFile:ccbFile parentSize:parentSize];
         [extraProps setObject:ccbFile forKey:name];
+    }
+    else if ([type isEqualToString:@"TMXFile"])
+    {
+        NSString* tmxFile = serializedValue;
+        if (!tmxFile) tmxFile = @"";
+        [TiledPropertySetter setTiledMapForNode:node andProperty:name withTMXFile:tmxFile parentSize:parentSize];
+        [extraProps setObject:tmxFile forKey:name];
     }
     else if ([type isEqualToString:@"NodeReference"])
     {
