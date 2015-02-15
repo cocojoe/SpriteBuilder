@@ -44,6 +44,7 @@ static NSString *urlEncode(id object) {
 @end
 
 @implementation UsageManager
+
 @dynamic userID;
 
 + (UsageManager*)sharedManager {
@@ -61,6 +62,12 @@ static NSString *urlEncode(id object) {
 	if(self)
 	{
 		 _userID = [[NSUserDefaults standardUserDefaults] valueForKey:kSbUserID];
+        
+        [NSTimer scheduledTimerWithTimeInterval:300
+                                         target: self
+                                       selector: @selector(userActive)
+                                       userInfo: nil
+                                        repeats: YES];
 	}
 	
 	return self;
@@ -172,6 +179,10 @@ static NSString *urlEncode(id object) {
     }
 	
     return serialNumberAsNSString;
+}
+
+- (void)userActive {
+    [self sendEvent:[NSString stringWithFormat:@"active"]];
 }
 
 @end
