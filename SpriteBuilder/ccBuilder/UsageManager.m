@@ -63,7 +63,7 @@ static NSString *urlEncode(id object) {
 	{
 		 _userID = [[NSUserDefaults standardUserDefaults] valueForKey:kSbUserID];
         
-        [NSTimer scheduledTimerWithTimeInterval:300
+        [NSTimer scheduledTimerWithTimeInterval: 3600
                                          target: self
                                        selector: @selector(userActive)
                                        userInfo: nil
